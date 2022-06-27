@@ -41,21 +41,81 @@
             </div>
             <br/>
             <div class="row gtr-uniform">
-                <div class="col-4"><span class="image fit"><img src="images/histera2.jpg" alt=""/></span></div>
-                <div class="col-4"><span class="image fit"><img src="images/histera6.jpg" alt=""/></span></div>
-                <div class="col-4"><span class="image fit"><img src="images/histera5.jpg" alt=""/></span></div>
+                <div class="col-4 col-4-xsmall"><span class="image fit"><img src="images/histera2.jpg" alt=""/></span>
+                </div>
+                <div class="col-4 col-4-xsmall"><span class="image fit"><img src="images/histera6.jpg" alt=""/></span>
+                </div>
+                <div class="col-4 col-12-xsmall"><span class="image fit"><img src="images/histera5.jpg" alt=""/></span>
+                </div>
             </div>
             <br/>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis
-                dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
-                Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia
-                malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien
-                risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit
-                tristique.</p>
-            <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet
-                dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo
-                mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis
-                elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+            <p>The aim of this project was to create a runtime Level Editor to create and share <a
+                    href="https://store.steampowered.com/app/1674590/Histera/">HisteraGame</a>
+                Levels. The
+                main features that I contributed to include:</p>
+            <h3>Tools and Systems</h3>
+            <ul>
+                <li>Move, Rotate, Scale, Duplicate and Delete tools with its corresponding gizmos.</li>
+                <li>Grid system with different sizes to use with Move, Rotate, Scale tools.</li>
+                <li>Snap to ground.</li>
+                <li>Undo Redo system with the command pattern.</li>
+                <li>Tooltip and Toast system.</li>
+                <li>Warning and Errors system with visual feedback.</li>
+                <li>Save system.</li>
+                <li>Settings system.</li>
+                <li>Game rules system(load rules, assets or specific color palette depending on the game mode).</li>
+            </ul>
+            <h3>Camera</h3>
+            <ul>
+                <li>Camera and viewport navigation including perspective to orthographic transitions, objects focus and
+                    other advanced behaviors.
+                </li>
+                <li><a
+                        href="https://blenderartists.org/uploads/default/original/4X/c/1/c/c1ca2a351a93b389578543b3f82cb6ffece10a74.jpg">Navigation
+                    gizmo</a>.
+                </li>
+            </ul>
+            <h3>Assets</h3>
+            <ul>
+                <li>Asset Bar/Selector with different sections and categories with drag and drop and search
+                    functionality.
+                </li>
+                <li>Multiple object selection and manipulation</li>
+            </ul>
+            <h3>Assets hierarchy</h3>
+            <ul>
+                <li>Hierarchy synced with the objects in the scene.</li>
+                <li>Group/Ungroup</li>
+                <li>Expand and collapse groups</li>
+                <li>Rename and reorder items</li>
+                <li>Multiple selection</li>
+                <li>Hierarchy resize</li>
+            </ul>
+            <h3>Other hierarchy</h3>
+            <ul>
+                <li>Hierarchy synced with the objects in the scene.</li>
+                <li>Group/Ungroup</li>
+                <li>Expand and collapse groups</li>
+                <li>Rename and reorder items</li>
+                <li>Multiple selection</li>
+                <li>Hierarchy resize</li>
+            </ul>
+            <h3>User Interface</h3>
+            <ul>
+                <li>Used MVVM framework to implement the UI.</li>
+                <li>Skin manager to control all the UI elements with a color palette.</li>
+            </ul>
+            <h3>Launcher and Community Menu</h3>
+            <ul>
+                <li>API data fetching to download and share levels.</li>
+                <li>Create new level or new level from template</li>
+                <li>Load existing level in edit or view mode.</li>
+                <li>Duplicate and rename level.</li>
+                <li>Save level as favorite.</li>
+                <li>Publish or Update level.</li>
+            </ul>
+            <p>After this integration an integration of this editor with another game started. Loxodon,
+                Gameplayingredients, Addressables</p>
         </div>
     </section>
 

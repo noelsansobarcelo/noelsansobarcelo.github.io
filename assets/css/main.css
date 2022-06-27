@@ -1621,6 +1621,7 @@ input, select, textarea {
 
 				.row > .col-4-xsmall {
 					width: 33.33333%;
+					display: none;
 				}
 
 				.row > .off-4-xsmall {
@@ -3221,7 +3222,7 @@ input, select, textarea {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 2em 2em 1em 1em ;
+					padding: 2em 2em 1em 2em ;
 				}
 
 			}
@@ -3237,7 +3238,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
-					padding: 3em 2em 1em 2em ;
+					padding: 1em 2em 1em 2em ;
 				}
 
 			}
