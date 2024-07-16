@@ -3913,7 +3913,7 @@ input, select, textarea {
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 0.9em;
 		}
 
 			@media screen and (max-width: 980px) {
